@@ -4,17 +4,84 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		5LYjdUvp0u6KR/XistlJjW7xj7Y=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		giG6LzKetCYpD7dpmOtkZN6yMhQ=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		lkibK4Zf/VVF1zXvqV8/jJB6Hs4=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		AZ0daRpbB/iAznzXZjpVmSFN9mI=
+		R1YF5pI6YTCv0Uz+VzfhWkR5gE8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>samplecharacter.json</key>
+		<data>
+		Ro8ns1g5DerwFZKpjjjDGVo3yBg=
+		</data>
+		<key>sampledeath.json</key>
+		<data>
+		BlPlAm5j7UFXukTcVYsJs4R6Gs4=
+		</data>
+		<key>samplequote.json</key>
+		<data>
+		qJS1H2T3TtMahl7h65+qwAr+tys=
+		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ePZQ6LfM184xsny14tpMSxHphgJObaJRVBQfZePD8kE=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			opIz9vvxMonMc2PtkQPitnK0ib3AInd/eiVHgUymdDU=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k2dgRjG9QSK+cJc625rLoNhBT1cF1iyIvZhZNSWBgro=
+			</data>
+		</dict>
+		<key>samplecharacter.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			esr2B0xhqfjX58OrpymMmOdVgkYlzPu/MVT7dDoViZY=
+			</data>
+		</dict>
+		<key>sampledeath.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZzVBEOKHQaOjE6HdkspDtQkLTT5wwZg9378p9Z/6Ucw=
+			</data>
+		</dict>
+		<key>samplequote.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PFs+1SjN/vSU0Y3sOWg5LRt3n+fQIBmOqXHKiKULPjM=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

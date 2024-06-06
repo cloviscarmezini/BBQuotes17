@@ -1,0 +1,38 @@
+{
+  "" : {
+    "diagnostics" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17-master.dia",
+    "emit-module-dependencies" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17-master-emit-module.dia",
+    "swift-dependencies" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17-master.swiftdeps"
+  },
+  "/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/BBQuotes17App.swift" : {
+    "const-values" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17App.swiftconstvalues",
+    "dependencies" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17App.d",
+    "diagnostics" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17App.dia",
+    "index-unit-output-path" : "/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17App.o",
+    "llvm-bc" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17App.bc",
+    "object" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17App.o",
+    "swift-dependencies" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17App.swiftdeps",
+    "swiftmodule" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/BBQuotes17App~partial.swiftmodule"
+  },
+  "/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/ContentView.swift" : {
+    "const-values" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

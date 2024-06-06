@@ -1,0 +1,24 @@
+{
+  "source": "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/ContentView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Breaking Bad View"
+      },
+      {
+        "comment": "",
+        "key": "Better Call Saul View"
+      },
+      {
+        "comment": "",
+        "key": "Breaking Bad"
+      },
+      {
+        "comment": "",
+        "key": "Better Call Saul"
+      }
+    ]
+  },
+  "version": 1
+}

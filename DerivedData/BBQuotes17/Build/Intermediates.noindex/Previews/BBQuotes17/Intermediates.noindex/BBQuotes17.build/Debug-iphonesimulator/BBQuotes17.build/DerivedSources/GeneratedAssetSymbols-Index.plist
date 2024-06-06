@@ -5,7 +5,28 @@
 	<key>colors</key>
 	<array/>
 	<key>images</key>
-	<array/>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBettercallsaul</string>
+			<key>relativePath</key>
+			<string>./bettercallsaul.imageset</string>
+			<key>swiftSymbol</key>
+			<string>bettercallsaul</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBreakingbad</string>
+			<key>relativePath</key>
+			<string>./breakingbad.imageset</string>
+			<key>swiftSymbol</key>
+			<string>breakingbad</string>
+		</dict>
+	</array>
 	<key>symbols</key>
 	<array/>
 </dict>

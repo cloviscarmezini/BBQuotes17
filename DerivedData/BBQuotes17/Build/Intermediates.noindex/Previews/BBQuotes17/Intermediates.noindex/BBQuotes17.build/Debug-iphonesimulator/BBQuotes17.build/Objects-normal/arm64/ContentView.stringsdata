@@ -1,12 +1,5 @@
 {
   "source": "/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/ContentView.swift",
-  "tables": {
-    "Localizable": [
-      {
-        "comment": "",
-        "key": "Hello, world!"
-      }
-    ]
-  },
+  "tables": {},
   "version": 1
 }
