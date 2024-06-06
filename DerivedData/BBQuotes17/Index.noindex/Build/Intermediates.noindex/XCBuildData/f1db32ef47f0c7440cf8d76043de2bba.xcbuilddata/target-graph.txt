@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Target 'BBQuotes17' in project 'BBQuotes17' (no dependencies)
+Target 'BBQuotes17' in project 'BBQuotes17' (no dependencies)
