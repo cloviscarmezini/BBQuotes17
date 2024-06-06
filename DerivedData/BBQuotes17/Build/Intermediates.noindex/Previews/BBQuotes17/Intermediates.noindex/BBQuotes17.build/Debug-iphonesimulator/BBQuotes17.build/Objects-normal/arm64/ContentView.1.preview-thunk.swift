@@ -21,7 +21,7 @@ extension ContentView {
                 .tabItem {
                     Label(__designTimeString("#8880.[1].[0].property.[0].[0].arg[0].value.[1].modifier[0].arg[0].value.[0].arg[0].value", fallback: "Better Call Saul"), systemImage: __designTimeString("#8880.[1].[0].property.[0].[0].arg[0].value.[1].modifier[0].arg[0].value.[0].arg[1].value", fallback: "briefcase"))
                 }.toolbarBackground(.visible, for: .tabBar)
-        }
+        }.preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     
 #sourceLocation()
     }
