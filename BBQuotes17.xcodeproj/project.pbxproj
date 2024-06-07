@@ -14,6 +14,10 @@
 		61035E6B2C126DE900DF02EB /* samplequote.json in Resources */ = {isa = PBXBuildFile; fileRef = 61035E682C126DE900DF02EB /* samplequote.json */; };
 		61035E6C2C126DE900DF02EB /* sampledeath.json in Resources */ = {isa = PBXBuildFile; fileRef = 61035E692C126DE900DF02EB /* sampledeath.json */; };
 		61035E6D2C126DE900DF02EB /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = 61035E6A2C126DE900DF02EB /* samplecharacter.json */; };
+		61035E6F2C1272FB00DF02EB /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61035E6E2C1272FB00DF02EB /* Quote.swift */; };
+		61035E712C12735B00DF02EB /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61035E702C12735B00DF02EB /* Character.swift */; };
+		61035E732C12743500DF02EB /* Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61035E722C12743500DF02EB /* Death.swift */; };
+		61035E752C129A6B00DF02EB /* FetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61035E742C129A6B00DF02EB /* FetchService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		61035E682C126DE900DF02EB /* samplequote.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplequote.json; sourceTree = "<group>"; };
 		61035E692C126DE900DF02EB /* sampledeath.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampledeath.json; sourceTree = "<group>"; };
 		61035E6A2C126DE900DF02EB /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
+		61035E6E2C1272FB00DF02EB /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		61035E702C12735B00DF02EB /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		61035E722C12743500DF02EB /* Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Death.swift; sourceTree = "<group>"; };
+		61035E742C129A6B00DF02EB /* FetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 			children = (
 				61035E592C126CCE00DF02EB /* BBQuotes17App.swift */,
 				61035E5B2C126CCE00DF02EB /* ContentView.swift */,
+				61035E742C129A6B00DF02EB /* FetchService.swift */,
+				61035E6E2C1272FB00DF02EB /* Quote.swift */,
+				61035E702C12735B00DF02EB /* Character.swift */,
+				61035E722C12743500DF02EB /* Death.swift */,
 				61035E5D2C126CCF00DF02EB /* Assets.xcassets */,
 				61035E672C126DD000DF02EB /* SampleData */,
 				61035E5F2C126CCF00DF02EB /* Preview Content */,
@@ -157,8 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61035E732C12743500DF02EB /* Death.swift in Sources */,
 				61035E5C2C126CCE00DF02EB /* ContentView.swift in Sources */,
+				61035E6F2C1272FB00DF02EB /* Quote.swift in Sources */,
 				61035E5A2C126CCE00DF02EB /* BBQuotes17App.swift in Sources */,
+				61035E752C129A6B00DF02EB /* FetchService.swift in Sources */,
+				61035E712C12735B00DF02EB /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
