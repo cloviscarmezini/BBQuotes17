@@ -3,7 +3,48 @@
 <plist version="1.0">
 <dict>
 	<key>colors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameBetterCallSaulButton</string>
+			<key>relativePath</key>
+			<string>./BetterCallSaulButton.colorset</string>
+			<key>swiftSymbol</key>
+			<string>betterCallSaulButton</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameBetterCallSaulShadow</string>
+			<key>relativePath</key>
+			<string>./BetterCallSaulShadow.colorset</string>
+			<key>swiftSymbol</key>
+			<string>betterCallSaulShadow</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameBreakingBadButton</string>
+			<key>relativePath</key>
+			<string>./BreakingBadButton.colorset</string>
+			<key>swiftSymbol</key>
+			<string>breakingBadButton</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameBreakingBadShadow</string>
+			<key>relativePath</key>
+			<string>./BreakingBadShadow.colorset</string>
+			<key>swiftSymbol</key>
+			<string>breakingBadShadow</string>
+		</dict>
+	</array>
 	<key>images</key>
 	<array>
 		<dict>

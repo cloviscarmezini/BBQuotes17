@@ -8,11 +8,11 @@
 import Foundation
 
 struct FetchService {
-    enum FetchError: Error {
+    private enum FetchError: Error {
         case badResponse
     }
     
-    let baseURL = URL(string: "https://breaking-bad-api-six.vercel.app/api/")!
+    private let baseURL = URL(string: "https://breaking-bad-api-six.vercel.app/api/")!
     
     func fetchQuote(from show: String) async throws -> Quote {
         // Build fetch url
@@ -34,9 +34,9 @@ struct FetchService {
         return quote
     }
     
-    func fetchCaracter(_ name: String) async throws -> Character {
-        let caracterURL = baseURL.appending(path: "caracters")
-        let fetchURL = caracterURL.appending(queryItems: [URLQueryItem(name: "name", value: name)])
+    func fetchCharacter(_ name: String) async throws -> Character {
+        let characterURL = baseURL.appending(path: "characters")
+        let fetchURL = characterURL.appending(queryItems: [URLQueryItem(name: "name", value: name)])
         
         let (data, response) = try await URLSession.shared.data(from: fetchURL)
         

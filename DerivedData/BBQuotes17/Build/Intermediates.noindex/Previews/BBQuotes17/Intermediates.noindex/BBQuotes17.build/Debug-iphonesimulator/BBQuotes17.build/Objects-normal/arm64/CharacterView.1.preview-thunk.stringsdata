@@ -1,0 +1,48 @@
+{
+  "source": "/Users/cloviscarmezini/swift/BBQuotes17/DerivedData/BBQuotes17/Build/Intermediates.noindex/Previews/BBQuotes17/Intermediates.noindex/BBQuotes17.build/Debug-iphonesimulator/BBQuotes17.build/Objects-normal/arm64/CharacterView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Portrayed By: %@"
+      },
+      {
+        "comment": "",
+        "key": "%@ Character Info"
+      },
+      {
+        "comment": "",
+        "key": "Born: %@"
+      },
+      {
+        "comment": "",
+        "key": "Occupations:"
+      },
+      {
+        "comment": "",
+        "key": "Nicknames:"
+      },
+      {
+        "comment": "",
+        "key": "None"
+      },
+      {
+        "comment": "",
+        "key": "Status: (spoiler alert!)"
+      },
+      {
+        "comment": "",
+        "key": "• %@"
+      },
+      {
+        "comment": "",
+        "key": "How: %@"
+      },
+      {
+        "comment": "",
+        "key": "Last words: %@"
+      }
+    ]
+  },
+  "version": 1
+}

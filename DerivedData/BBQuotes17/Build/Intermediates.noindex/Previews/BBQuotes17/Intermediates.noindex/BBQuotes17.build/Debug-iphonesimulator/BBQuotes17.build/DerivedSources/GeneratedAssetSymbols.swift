@@ -24,6 +24,18 @@ private let resourceBundle = Foundation.Bundle(for: ResourceBundleClass.self)
 @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 extension DeveloperToolsSupport.ColorResource {
 
+    /// The "BetterCallSaulButton" asset catalog color resource.
+    static let betterCallSaulButton = DeveloperToolsSupport.ColorResource(name: "BetterCallSaulButton", bundle: resourceBundle)
+
+    /// The "BetterCallSaulShadow" asset catalog color resource.
+    static let betterCallSaulShadow = DeveloperToolsSupport.ColorResource(name: "BetterCallSaulShadow", bundle: resourceBundle)
+
+    /// The "BreakingBadButton" asset catalog color resource.
+    static let breakingBadButton = DeveloperToolsSupport.ColorResource(name: "BreakingBadButton", bundle: resourceBundle)
+
+    /// The "BreakingBadShadow" asset catalog color resource.
+    static let breakingBadShadow = DeveloperToolsSupport.ColorResource(name: "BreakingBadShadow", bundle: resourceBundle)
+
 }
 
 // MARK: - Image Symbols -
@@ -46,6 +58,42 @@ extension DeveloperToolsSupport.ImageResource {
 @available(macCatalyst, unavailable)
 extension AppKit.NSColor {
 
+    /// The "BetterCallSaulButton" asset catalog color.
+    static var betterCallSaulButton: AppKit.NSColor {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .betterCallSaulButton)
+#else
+        .init()
+#endif
+    }
+
+    /// The "BetterCallSaulShadow" asset catalog color.
+    static var betterCallSaulShadow: AppKit.NSColor {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .betterCallSaulShadow)
+#else
+        .init()
+#endif
+    }
+
+    /// The "BreakingBadButton" asset catalog color.
+    static var breakingBadButton: AppKit.NSColor {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .breakingBadButton)
+#else
+        .init()
+#endif
+    }
+
+    /// The "BreakingBadShadow" asset catalog color.
+    static var breakingBadShadow: AppKit.NSColor {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .breakingBadShadow)
+#else
+        .init()
+#endif
+    }
+
 }
 #endif
 
@@ -54,6 +102,42 @@ extension AppKit.NSColor {
 @available(watchOS, unavailable)
 extension UIKit.UIColor {
 
+    /// The "BetterCallSaulButton" asset catalog color.
+    static var betterCallSaulButton: UIKit.UIColor {
+#if !os(watchOS)
+        .init(resource: .betterCallSaulButton)
+#else
+        .init()
+#endif
+    }
+
+    /// The "BetterCallSaulShadow" asset catalog color.
+    static var betterCallSaulShadow: UIKit.UIColor {
+#if !os(watchOS)
+        .init(resource: .betterCallSaulShadow)
+#else
+        .init()
+#endif
+    }
+
+    /// The "BreakingBadButton" asset catalog color.
+    static var breakingBadButton: UIKit.UIColor {
+#if !os(watchOS)
+        .init(resource: .breakingBadButton)
+#else
+        .init()
+#endif
+    }
+
+    /// The "BreakingBadShadow" asset catalog color.
+    static var breakingBadShadow: UIKit.UIColor {
+#if !os(watchOS)
+        .init(resource: .breakingBadShadow)
+#else
+        .init()
+#endif
+    }
+
 }
 #endif
 
@@ -61,10 +145,34 @@ extension UIKit.UIColor {
 @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 extension SwiftUI.Color {
 
+    /// The "BetterCallSaulButton" asset catalog color.
+    static var betterCallSaulButton: SwiftUI.Color { .init(.betterCallSaulButton) }
+
+    /// The "BetterCallSaulShadow" asset catalog color.
+    static var betterCallSaulShadow: SwiftUI.Color { .init(.betterCallSaulShadow) }
+
+    /// The "BreakingBadButton" asset catalog color.
+    static var breakingBadButton: SwiftUI.Color { .init(.breakingBadButton) }
+
+    /// The "BreakingBadShadow" asset catalog color.
+    static var breakingBadShadow: SwiftUI.Color { .init(.breakingBadShadow) }
+
 }
 
 @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 extension SwiftUI.ShapeStyle where Self == SwiftUI.Color {
+
+    /// The "BetterCallSaulButton" asset catalog color.
+    static var betterCallSaulButton: SwiftUI.Color { .init(.betterCallSaulButton) }
+
+    /// The "BetterCallSaulShadow" asset catalog color.
+    static var betterCallSaulShadow: SwiftUI.Color { .init(.betterCallSaulShadow) }
+
+    /// The "BreakingBadButton" asset catalog color.
+    static var breakingBadButton: SwiftUI.Color { .init(.breakingBadButton) }
+
+    /// The "BreakingBadShadow" asset catalog color.
+    static var breakingBadShadow: SwiftUI.Color { .init(.breakingBadShadow) }
 
 }
 #endif
@@ -148,6 +256,26 @@ extension DeveloperToolsSupport.ColorResource {
     }
 
 }
+
+#if canImport(AppKit)
+@available(macOS 14.0, *)
+@available(macCatalyst, unavailable)
+extension AppKit.NSColor {
+
+    private convenience init?(thinnableResource: DeveloperToolsSupport.ColorResource?) {
+#if !targetEnvironment(macCatalyst)
+        if let resource = thinnableResource {
+            self.init(resource: resource)
+        } else {
+            return nil
+        }
+#else
+        return nil
+#endif
+    }
+
+}
+#endif
 
 #if canImport(UIKit)
 @available(iOS 17.0, tvOS 17.0, *)
