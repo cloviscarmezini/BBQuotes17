@@ -36,6 +36,12 @@ extension DeveloperToolsSupport.ColorResource {
     /// The "BreakingBadShadow" asset catalog color resource.
     static let breakingBadShadow = DeveloperToolsSupport.ColorResource(name: "BreakingBadShadow", bundle: resourceBundle)
 
+    /// The "ElCaminoButton" asset catalog color resource.
+    static let elCaminoButton = DeveloperToolsSupport.ColorResource(name: "ElCaminoButton", bundle: resourceBundle)
+
+    /// The "ElCaminoShadow" asset catalog color resource.
+    static let elCaminoShadow = DeveloperToolsSupport.ColorResource(name: "ElCaminoShadow", bundle: resourceBundle)
+
 }
 
 // MARK: - Image Symbols -
@@ -48,6 +54,9 @@ extension DeveloperToolsSupport.ImageResource {
 
     /// The "breakingbad" asset catalog image resource.
     static let breakingbad = DeveloperToolsSupport.ImageResource(name: "breakingbad", bundle: resourceBundle)
+
+    /// The "elcamino" asset catalog image resource.
+    static let elcamino = DeveloperToolsSupport.ImageResource(name: "elcamino", bundle: resourceBundle)
 
 }
 
@@ -89,6 +98,24 @@ extension AppKit.NSColor {
     static var breakingBadShadow: AppKit.NSColor {
 #if !targetEnvironment(macCatalyst)
         .init(resource: .breakingBadShadow)
+#else
+        .init()
+#endif
+    }
+
+    /// The "ElCaminoButton" asset catalog color.
+    static var elCaminoButton: AppKit.NSColor {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .elCaminoButton)
+#else
+        .init()
+#endif
+    }
+
+    /// The "ElCaminoShadow" asset catalog color.
+    static var elCaminoShadow: AppKit.NSColor {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .elCaminoShadow)
 #else
         .init()
 #endif
@@ -138,6 +165,24 @@ extension UIKit.UIColor {
 #endif
     }
 
+    /// The "ElCaminoButton" asset catalog color.
+    static var elCaminoButton: UIKit.UIColor {
+#if !os(watchOS)
+        .init(resource: .elCaminoButton)
+#else
+        .init()
+#endif
+    }
+
+    /// The "ElCaminoShadow" asset catalog color.
+    static var elCaminoShadow: UIKit.UIColor {
+#if !os(watchOS)
+        .init(resource: .elCaminoShadow)
+#else
+        .init()
+#endif
+    }
+
 }
 #endif
 
@@ -157,6 +202,12 @@ extension SwiftUI.Color {
     /// The "BreakingBadShadow" asset catalog color.
     static var breakingBadShadow: SwiftUI.Color { .init(.breakingBadShadow) }
 
+    /// The "ElCaminoButton" asset catalog color.
+    static var elCaminoButton: SwiftUI.Color { .init(.elCaminoButton) }
+
+    /// The "ElCaminoShadow" asset catalog color.
+    static var elCaminoShadow: SwiftUI.Color { .init(.elCaminoShadow) }
+
 }
 
 @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
@@ -173,6 +224,12 @@ extension SwiftUI.ShapeStyle where Self == SwiftUI.Color {
 
     /// The "BreakingBadShadow" asset catalog color.
     static var breakingBadShadow: SwiftUI.Color { .init(.breakingBadShadow) }
+
+    /// The "ElCaminoButton" asset catalog color.
+    static var elCaminoButton: SwiftUI.Color { .init(.elCaminoButton) }
+
+    /// The "ElCaminoShadow" asset catalog color.
+    static var elCaminoShadow: SwiftUI.Color { .init(.elCaminoShadow) }
 
 }
 #endif
@@ -202,6 +259,15 @@ extension AppKit.NSImage {
 #endif
     }
 
+    /// The "elcamino" asset catalog image.
+    static var elcamino: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .elcamino)
+#else
+        .init()
+#endif
+    }
+
 }
 #endif
 
@@ -223,6 +289,15 @@ extension UIKit.UIImage {
     static var breakingbad: UIKit.UIImage {
 #if !os(watchOS)
         .init(resource: .breakingbad)
+#else
+        .init()
+#endif
+    }
+
+    /// The "elcamino" asset catalog image.
+    static var elcamino: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .elcamino)
 #else
         .init()
 #endif

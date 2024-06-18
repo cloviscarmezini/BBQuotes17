@@ -44,6 +44,26 @@
 			<key>swiftSymbol</key>
 			<string>breakingBadShadow</string>
 		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameElCaminoButton</string>
+			<key>relativePath</key>
+			<string>./ElCaminoButton.colorset</string>
+			<key>swiftSymbol</key>
+			<string>elCaminoButton</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameElCaminoShadow</string>
+			<key>relativePath</key>
+			<string>./ElCaminoShadow.colorset</string>
+			<key>swiftSymbol</key>
+			<string>elCaminoShadow</string>
+		</dict>
 	</array>
 	<key>images</key>
 	<array>
@@ -66,6 +86,16 @@
 			<string>./breakingbad.imageset</string>
 			<key>swiftSymbol</key>
 			<string>breakingbad</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameElcamino</string>
+			<key>relativePath</key>
+			<string>./elcamino.imageset</string>
+			<key>swiftSymbol</key>
+			<string>elcamino</string>
 		</dict>
 	</array>
 	<key>symbols</key>

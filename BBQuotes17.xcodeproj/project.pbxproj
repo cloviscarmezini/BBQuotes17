@@ -21,6 +21,7 @@
 		61035E772C12A4CB00DF02EB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61035E762C12A4CB00DF02EB /* ViewModel.swift */; };
 		616CB9F72C19348200172D4E /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616CB9F62C19348200172D4E /* QuoteView.swift */; };
 		61E3744E2C2116F100152427 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E3744D2C2116F100152427 /* CharacterView.swift */; };
+		61E374502C212DCC00152427 /* sampleepisode.json in Resources */ = {isa = PBXBuildFile; fileRef = 61E3744F2C212DCC00152427 /* sampleepisode.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		61035E762C12A4CB00DF02EB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		616CB9F62C19348200172D4E /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		61E3744D2C2116F100152427 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		61E3744F2C212DCC00152427 /* sampleepisode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleepisode.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		61035E672C126DD000DF02EB /* SampleData */ = {
 			isa = PBXGroup;
 			children = (
+				61E3744F2C212DCC00152427 /* sampleepisode.json */,
 				61035E6A2C126DE900DF02EB /* samplecharacter.json */,
 				61035E692C126DE900DF02EB /* sampledeath.json */,
 				61035E682C126DE900DF02EB /* samplequote.json */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61035E6C2C126DE900DF02EB /* sampledeath.json in Resources */,
+				61E374502C212DCC00152427 /* sampleepisode.json in Resources */,
 				61035E612C126CCF00DF02EB /* Preview Assets.xcassets in Resources */,
 				61035E6D2C126DE900DF02EB /* samplecharacter.json in Resources */,
 				61035E6B2C126DE900DF02EB /* samplequote.json in Resources */,
