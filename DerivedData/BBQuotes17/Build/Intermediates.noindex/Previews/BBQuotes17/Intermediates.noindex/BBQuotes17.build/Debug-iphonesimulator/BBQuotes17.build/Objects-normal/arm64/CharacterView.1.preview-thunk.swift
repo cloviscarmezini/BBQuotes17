@@ -14,7 +14,7 @@ extension CharacterView {
         GeometryReader { geo in
             ScrollViewReader { proxy in
                 ZStack(alignment: .top) {
-                    Image(show.lowercased().replacingOccurrences(of: __designTimeString("#5189.[1].[2].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.modifier[1].arg[0].value", fallback: " "), with: __designTimeString("#5189.[1].[2].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.modifier[1].arg[1].value", fallback: "")))
+                    Image(show.removeCaseAndSpaces())
                         .resizable()
                         .scaledToFit()
                     

@@ -14,11 +14,9 @@ struct QuoteView: View {
     @State var showCharacterInfo = false
     
     var body: some View {
-        let formattedShowName = show.replacingOccurrences(of: " ", with: "")
-        
         GeometryReader { geo in
             ZStack {
-                Image(formattedShowName.lowercased())
+                Image(show.removeCaseAndSpaces())
                     .resizable()
                     .frame(width: geo.size.width * 2.7, height: geo.size.height * 1.2)
                 
@@ -79,9 +77,9 @@ struct QuoteView: View {
                             .font(.title)
                             .foregroundStyle(.white)
                             .padding()
-                            .background(Color("\(formattedShowName)Button"))
+                            .background(Color("\(show.removeSpaces())Button"))
                             .clipShape(.rect(cornerRadius: 7))
-                            .shadow(color: Color("\(formattedShowName)Shadow"), radius: 2)
+                            .shadow(color: Color("\(show.removeSpaces())Shadow"), radius: 2)
                     }
                     
                     Spacer(minLength: 95)
