@@ -67,7 +67,7 @@ extension QuoteView {
                     
                     Button   {
                         Task {
-                            await vm.getData(for: show)
+                            await vm.getQuoteData(for: show)
                         }
                     } label: {
                         Text(__designTimeString("#6589.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0].arg[0].value", fallback: "Get Random Quote"))

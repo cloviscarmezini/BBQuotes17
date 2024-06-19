@@ -1,20 +1,5 @@
 {
   "source": "/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/ContentView.swift",
-  "tables": {
-    "Localizable": [
-      {
-        "comment": "",
-        "key": "Breaking Bad"
-      },
-      {
-        "comment": "",
-        "key": "Better Call Saul"
-      },
-      {
-        "comment": "",
-        "key": "El Camino"
-      }
-    ]
-  },
+  "tables": {},
   "version": 1
 }
