@@ -6,10 +6,10 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>C3249D9C-225F-47CF-B78D-B434173EA8C5</key>
+		<key>806507EF-DE3C-4BF4-84BC-48FBB5CF4530</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>07B0227A-15B7-4922-A92B-192DC1EB03DC</string>
+			<string>10A60D8E-CA28-475A-8CE8-6564A627306D</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,7 +30,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-BBQuotes17-2024.06.17_21-34-32--0300.xcresult</string>
+			<string>Run-BBQuotes17-2024.06.17_23-28-14--0300.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -59,13 +59,13 @@
 			<key>signature</key>
 			<string>Run BBQuotes17</string>
 			<key>timeStartedRecording</key>
-			<real>740363672.19039404</real>
+			<real>740370494.10294998</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run BBQuotes17</string>
 			<key>uniqueIdentifier</key>
-			<string>C3249D9C-225F-47CF-B78D-B434173EA8C5</string>
+			<string>806507EF-DE3C-4BF4-84BC-48FBB5CF4530</string>
 		</dict>
 	</dict>
 </dict>
