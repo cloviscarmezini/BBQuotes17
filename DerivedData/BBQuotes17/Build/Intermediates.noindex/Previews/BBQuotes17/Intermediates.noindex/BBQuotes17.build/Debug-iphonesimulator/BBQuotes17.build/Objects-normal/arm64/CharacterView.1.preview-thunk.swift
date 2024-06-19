@@ -120,7 +120,7 @@ extension CharacterView {
 
 import struct BBQuotes17.CharacterView
 #Preview {
-    CharacterView(character: ViewModel().character, show: "Breaking Bad")
+    CharacterView(character: ViewModel().character, show: Constants.breakingBad)
 }
 
 
