@@ -258,6 +258,48 @@
 			<key>uniqueIdentifier</key>
 			<string>349D284C-7F57-4061-991B-A3B58826CE5D</string>
 		</dict>
+		<key>36C0C930-C8EB-4F7B-8D96-6ADC07E1B952</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>36C0C930-C8EB-4F7B-8D96-6ADC07E1B952.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740458402.12828195</real>
+			<key>timeStoppedRecording</key>
+			<real>740458403.85896206</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>36C0C930-C8EB-4F7B-8D96-6ADC07E1B952</string>
+		</dict>
 		<key>38390A47-A510-445B-B8F4-86A841C8B7CE</key>
 		<dict>
 			<key>className</key>
@@ -300,6 +342,132 @@
 			<key>uniqueIdentifier</key>
 			<string>38390A47-A510-445B-B8F4-86A841C8B7CE</string>
 		</dict>
+		<key>43D3B476-30D5-4A6A-9A9B-DCAA96A24EA2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>43D3B476-30D5-4A6A-9A9B-DCAA96A24EA2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740457306.84942698</real>
+			<key>timeStoppedRecording</key>
+			<real>740457307.15373099</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>43D3B476-30D5-4A6A-9A9B-DCAA96A24EA2</string>
+		</dict>
+		<key>445434D9-8C80-4AA9-A7D1-9E2DE7457B1C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>445434D9-8C80-4AA9-A7D1-9E2DE7457B1C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740458014.90409994</real>
+			<key>timeStoppedRecording</key>
+			<real>740458015.984267</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>445434D9-8C80-4AA9-A7D1-9E2DE7457B1C</string>
+		</dict>
+		<key>46591EB6-249C-47B6-99F0-CA82E6F76148</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>46591EB6-249C-47B6-99F0-CA82E6F76148.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740457902.70591605</real>
+			<key>timeStoppedRecording</key>
+			<real>740457972.448367</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>46591EB6-249C-47B6-99F0-CA82E6F76148</string>
+		</dict>
 		<key>474F8C1F-4B59-4563-B890-D3598812DFDC</key>
 		<dict>
 			<key>className</key>
@@ -341,6 +509,48 @@
 			<string>Build for Previews BBQuotes17</string>
 			<key>uniqueIdentifier</key>
 			<string>474F8C1F-4B59-4563-B890-D3598812DFDC</string>
+		</dict>
+		<key>523F8A81-D1A8-4BF0-9990-4B691A174F85</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>523F8A81-D1A8-4BF0-9990-4B691A174F85.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740458396.55609405</real>
+			<key>timeStoppedRecording</key>
+			<real>740458400.290488</real>
+			<key>title</key>
+			<string>Build BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>523F8A81-D1A8-4BF0-9990-4B691A174F85</string>
 		</dict>
 		<key>52D5D378-AC75-4771-B25D-8BE9EE6C05B4</key>
 		<dict>
@@ -426,6 +636,48 @@
 			<key>uniqueIdentifier</key>
 			<string>5AE33859-7AF7-4FFF-A231-1C829AAB460C</string>
 		</dict>
+		<key>5E203EC1-A769-47AE-885E-81BBB864678B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5E203EC1-A769-47AE-885E-81BBB864678B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740457373.82217097</real>
+			<key>timeStoppedRecording</key>
+			<real>740457375.74768901</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>5E203EC1-A769-47AE-885E-81BBB864678B</string>
+		</dict>
 		<key>6A58AD60-A086-4366-B20D-2173F44AE7E3</key>
 		<dict>
 			<key>className</key>
@@ -467,6 +719,48 @@
 			<string>Build for Previews BBQuotes17</string>
 			<key>uniqueIdentifier</key>
 			<string>6A58AD60-A086-4366-B20D-2173F44AE7E3</string>
+		</dict>
+		<key>73992A39-8CA9-43C3-A3F4-2F7665FEFA6C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>73992A39-8CA9-43C3-A3F4-2F7665FEFA6C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740457304.79985297</real>
+			<key>timeStoppedRecording</key>
+			<real>740457305.47105002</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>73992A39-8CA9-43C3-A3F4-2F7665FEFA6C</string>
 		</dict>
 		<key>7D7347C9-8C4E-4CCE-B100-A352A013AC04</key>
 		<dict>
@@ -636,6 +930,90 @@
 			<key>uniqueIdentifier</key>
 			<string>89BB71F8-6028-4677-BDE6-9420BB5621C1</string>
 		</dict>
+		<key>8B390667-7BF5-4162-B7B8-93D8CF23B8B3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8B390667-7BF5-4162-B7B8-93D8CF23B8B3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740458008.95496297</real>
+			<key>timeStoppedRecording</key>
+			<real>740458009.30455196</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>8B390667-7BF5-4162-B7B8-93D8CF23B8B3</string>
+		</dict>
+		<key>96CE360B-6100-4A0D-8266-68EC89E754A4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>96CE360B-6100-4A0D-8266-68EC89E754A4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740458019.10521495</real>
+			<key>timeStoppedRecording</key>
+			<real>740458019.27251303</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>96CE360B-6100-4A0D-8266-68EC89E754A4</string>
+		</dict>
 		<key>99921439-E480-43C4-91DB-8C1515DBB24B</key>
 		<dict>
 			<key>className</key>
@@ -719,6 +1097,48 @@
 			<string>Build for Previews BBQuotes17</string>
 			<key>uniqueIdentifier</key>
 			<string>9A8D8AD8-FFDF-4E38-B659-55F0E8610F6D</string>
+		</dict>
+		<key>9C0CB7E2-6E6A-4DE5-B51F-13154A49757E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9C0CB7E2-6E6A-4DE5-B51F-13154A49757E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740457311.754246</real>
+			<key>timeStoppedRecording</key>
+			<real>740457312.13187301</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>9C0CB7E2-6E6A-4DE5-B51F-13154A49757E</string>
 		</dict>
 		<key>B485A54D-3F34-4734-9AD8-2EE9515E8701</key>
 		<dict>
@@ -804,6 +1224,90 @@
 			<key>uniqueIdentifier</key>
 			<string>BF2BE1E6-CCC4-48C4-974F-624DAB2F233D</string>
 		</dict>
+		<key>C662DA29-2263-4273-BFF3-B5FFB5FDEE4F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C662DA29-2263-4273-BFF3-B5FFB5FDEE4F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740457322.03132105</real>
+			<key>timeStoppedRecording</key>
+			<real>740457322.46430504</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>C662DA29-2263-4273-BFF3-B5FFB5FDEE4F</string>
+		</dict>
+		<key>CB01E5F7-7C47-4665-AA87-A65DBD29AF28</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CB01E5F7-7C47-4665-AA87-A65DBD29AF28.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740457331.968678</real>
+			<key>timeStoppedRecording</key>
+			<real>740457332.31837595</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>CB01E5F7-7C47-4665-AA87-A65DBD29AF28</string>
+		</dict>
 		<key>D0134FC4-B9EB-47A7-8F0B-0E95D82125AB</key>
 		<dict>
 			<key>className</key>
@@ -845,6 +1349,48 @@
 			<string>Build for Previews BBQuotes17</string>
 			<key>uniqueIdentifier</key>
 			<string>D0134FC4-B9EB-47A7-8F0B-0E95D82125AB</string>
+		</dict>
+		<key>D899DF73-C226-4589-922E-0330E96AC90C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D899DF73-C226-4589-922E-0330E96AC90C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740457420.47209001</real>
+			<key>timeStoppedRecording</key>
+			<real>740457425.07961905</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>D899DF73-C226-4589-922E-0330E96AC90C</string>
 		</dict>
 		<key>D89A5F2B-9996-4A89-9372-7977A52910AA</key>
 		<dict>
@@ -1055,6 +1601,90 @@
 			<string>Build for Previews BBQuotes17</string>
 			<key>uniqueIdentifier</key>
 			<string>E85251A9-F0F0-4DA2-9CA1-1516FB521619</string>
+		</dict>
+		<key>F27944E4-9866-4653-940B-FF4B432C1561</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F27944E4-9866-4653-940B-FF4B432C1561.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740458002.681391</real>
+			<key>timeStoppedRecording</key>
+			<real>740458003.42283797</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>F27944E4-9866-4653-940B-FF4B432C1561</string>
+		</dict>
+		<key>F4D74048-F737-43D2-91F1-A816D81D69E8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F4D74048-F737-43D2-91F1-A816D81D69E8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BBQuotes17 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BBQuotes17</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>timeStartedRecording</key>
+			<real>740458004.76486802</real>
+			<key>timeStoppedRecording</key>
+			<real>740458005.15030897</real>
+			<key>title</key>
+			<string>Build for Previews BBQuotes17</string>
+			<key>uniqueIdentifier</key>
+			<string>F4D74048-F737-43D2-91F1-A816D81D69E8</string>
 		</dict>
 		<key>FBA88293-578C-4E2B-9BEC-E556C4121CF2</key>
 		<dict>

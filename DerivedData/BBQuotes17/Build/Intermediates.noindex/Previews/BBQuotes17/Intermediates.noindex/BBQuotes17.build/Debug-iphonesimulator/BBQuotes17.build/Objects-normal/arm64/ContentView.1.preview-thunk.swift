@@ -12,16 +12,16 @@ extension ContentView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
         #sourceLocation(file: "/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/ContentView.swift", line: 12)
         TabView {
-            QuoteView(show: Constants.breakingBad)
+            FetchView(show: Constants.breakingBad)
                 .tabItem {
                     Label(Constants.breakingBad, systemImage: __designTimeString("#5140.[1].[0].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.[0].arg[1].value", fallback: "tortoise"))
                 }.toolbarBackground(.visible, for: .tabBar)
             
-            QuoteView(show: Constants.betterCallSaul)
+            FetchView(show: Constants.betterCallSaul)
                 .tabItem {
                     Label(Constants.betterCallSaul, systemImage: __designTimeString("#5140.[1].[0].property.[0].[0].arg[0].value.[1].modifier[0].arg[0].value.[0].arg[1].value", fallback: "briefcase"))
                 }.toolbarBackground(.visible, for: .tabBar)
-            QuoteView(show: Constants.elCamino)
+            FetchView(show: Constants.elCamino)
                 .tabItem {
                     Label(Constants.elCamino, systemImage: __designTimeString("#5140.[1].[0].property.[0].[0].arg[0].value.[2].modifier[0].arg[0].value.[0].arg[1].value", fallback: "car"))
                 }.toolbarBackground(.visible, for: .tabBar)

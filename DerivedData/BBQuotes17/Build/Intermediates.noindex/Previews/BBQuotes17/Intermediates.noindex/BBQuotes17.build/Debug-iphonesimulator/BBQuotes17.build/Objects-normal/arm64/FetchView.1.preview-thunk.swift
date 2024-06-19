@@ -26,7 +26,7 @@ extension FetchView {
                             EmptyView()
                         case .fetching:
                             ProgressView()
-                        case .success:
+                        case .successQuote:
                             Text("\"\(vm.quote.quote)\"")
                                 .minimumScaleFactor(__designTimeFloat("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].arg[0].value.[1].[2].[0].modifier[0].arg[0].value", fallback: 0.5))
                                 .multilineTextAlignment(.center)
@@ -58,21 +58,23 @@ extension FetchView {
                             .onTapGesture {
                                 showCharacterInfo.toggle()
                             }
+                        case .successEpisode:
+                            EpisodeView(episode: vm.episode)
                         case .failed(let error):
                             Text(error.localizedDescription)
                         }
                         
-                        Spacer()
+                        Spacer(minLength: __designTimeInteger("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].arg[0].value.[2].arg[0].value", fallback: 2))
                     }
                     
                     HStack {
                         Button   {
                             Task {
-                                await vm.getEpisode(for: show)
+                                await vm.getQuoteData(for: show)
                             }
                         } label: {
-                            Text(__designTimeString("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[0].arg[1].value.[0].arg[0].value", fallback: "Get Random Episode"))
-                                .font(.title)
+                            Text(__designTimeString("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[0].arg[1].value.[0].arg[0].value", fallback: "Get Random Quote"))
+                                .font(.title3)
                                 .foregroundStyle(.white)
                                 .padding()
                                 .background(Color("\(show.removeSpaces())Button"))
@@ -80,20 +82,24 @@ extension FetchView {
                                 .shadow(color: Color("\(show.removeSpaces())Shadow"), radius: __designTimeInteger("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[0].arg[1].value.[0].modifier[5].arg[1].value", fallback: 2))
                         }
                         
+                        Spacer()
+                        
                         Button   {
                             Task {
-                                await vm.getQuoteData(for: show)
+                                await vm.getEpisode(for: show)
                             }
                         } label: {
-                            Text(__designTimeString("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0].arg[0].value", fallback: "Get Random Quote"))
-                                .font(.title)
+                            Text(__designTimeString("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[2].arg[1].value.[0].arg[0].value", fallback: "Get Random Episode"))
+                                .font(.title3)
                                 .foregroundStyle(.white)
                                 .padding()
                                 .background(Color("\(show.removeSpaces())Button"))
-                                .clipShape(.rect(cornerRadius: __designTimeInteger("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0].modifier[4].arg[0].value.arg[0].value", fallback: 7)))
-                                .shadow(color: Color("\(show.removeSpaces())Shadow"), radius: __designTimeInteger("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0].modifier[5].arg[1].value", fallback: 2))
+                                .clipShape(.rect(cornerRadius: __designTimeInteger("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[2].arg[1].value.[0].modifier[4].arg[0].value.arg[0].value", fallback: 7)))
+                                .shadow(color: Color("\(show.removeSpaces())Shadow"), radius: __designTimeInteger("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[2].arg[1].value.[0].modifier[5].arg[1].value", fallback: 2))
                         }
                     }
+                    .padding(.horizontal, __designTimeInteger("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].modifier[0].arg[1].value", fallback: 30))
+                    
                     
                     Spacer(minLength: __designTimeInteger("#15858.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[2].arg[0].value", fallback: 95))
                     

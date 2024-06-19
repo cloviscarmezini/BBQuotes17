@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		aTkBvlEmHQMxCSDlTZku+Z//N5g=
+		/98sRV0aJ1sst869LsMhBuORoek=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -31,6 +31,10 @@
 		<key>sampledeath.json</key>
 		<data>
 		BlPlAm5j7UFXukTcVYsJs4R6Gs4=
+		</data>
+		<key>sampleepisode.json</key>
+		<data>
+		+YPkDaXRL+hr6JkJc/DXM5HGoV4=
 		</data>
 		<key>samplequote.json</key>
 		<data>
@@ -57,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z0zI7ni9UYirtfZsBQfMLCitGfUzMx/IO9kGGvpERjs=
+			lp7i4hE9uwZp/mDI8rkRkG2lvRk1FXLoIZZnaluUyD8=
 			</data>
 		</dict>
 		<key>samplecharacter.json</key>
@@ -72,6 +76,13 @@
 			<key>hash2</key>
 			<data>
 			ZzVBEOKHQaOjE6HdkspDtQkLTT5wwZg9378p9Z/6Ucw=
+			</data>
+		</dict>
+		<key>sampleepisode.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AhtHIBsn32iDjh1IpzIE59QGD99YwCEmAcdHMAlNZas=
 			</data>
 		</dict>
 		<key>samplequote.json</key>

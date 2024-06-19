@@ -1,0 +1,20 @@
+{
+  "source": "/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/EpisodeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Written By: %@"
+      },
+      {
+        "comment": "",
+        "key": "Directed By: %@"
+      },
+      {
+        "comment": "",
+        "key": "Aired By: %@"
+      }
+    ]
+  },
+  "version": 1
+}
