@@ -1,0 +1,20 @@
+{
+  "source": "/Users/cloviscarmezini/swift/BBQuotes17/BBQuotes17/FetchView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "\"%@\""
+      },
+      {
+        "comment": "",
+        "key": "Get Random Episode"
+      },
+      {
+        "comment": "",
+        "key": "Get Random Quote"
+      }
+    ]
+  },
+  "version": 1
+}

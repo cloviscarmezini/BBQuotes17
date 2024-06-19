@@ -8,6 +8,10 @@
       },
       {
         "comment": "",
+        "key": "Get Random Episode"
+      },
+      {
+        "comment": "",
         "key": "Get Random Quote"
       }
     ]

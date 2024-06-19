@@ -65,18 +65,34 @@ extension QuoteView {
                         Spacer()
                     }
                     
-                    Button   {
-                        Task {
-                            await vm.getQuoteData(for: show)
+                    HStack {
+                        Button   {
+                            Task {
+                                await vm.getEpisode(for: show)
+                            }
+                        } label: {
+                            Text(__designTimeString("#6589.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[0].arg[1].value.[0].arg[0].value", fallback: "Get Random Episode"))
+                                .font(.title)
+                                .foregroundStyle(.white)
+                                .padding()
+                                .background(Color("\(show.removeSpaces())Button"))
+                                .clipShape(.rect(cornerRadius: __designTimeInteger("#6589.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[0].arg[1].value.[0].modifier[4].arg[0].value.arg[0].value", fallback: 7)))
+                                .shadow(color: Color("\(show.removeSpaces())Shadow"), radius: __designTimeInteger("#6589.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[0].arg[1].value.[0].modifier[5].arg[1].value", fallback: 2))
                         }
-                    } label: {
-                        Text(__designTimeString("#6589.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0].arg[0].value", fallback: "Get Random Quote"))
-                            .font(.title)
-                            .foregroundStyle(.white)
-                            .padding()
-                            .background(Color("\(show.removeSpaces())Button"))
-                            .clipShape(.rect(cornerRadius: __designTimeInteger("#6589.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0].modifier[4].arg[0].value.arg[0].value", fallback: 7)))
-                            .shadow(color: Color("\(show.removeSpaces())Shadow"), radius: __designTimeInteger("#6589.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0].modifier[5].arg[1].value", fallback: 2))
+                        
+                        Button   {
+                            Task {
+                                await vm.getQuoteData(for: show)
+                            }
+                        } label: {
+                            Text(__designTimeString("#6589.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0].arg[0].value", fallback: "Get Random Quote"))
+                                .font(.title)
+                                .foregroundStyle(.white)
+                                .padding()
+                                .background(Color("\(show.removeSpaces())Button"))
+                                .clipShape(.rect(cornerRadius: __designTimeInteger("#6589.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0].modifier[4].arg[0].value.arg[0].value", fallback: 7)))
+                                .shadow(color: Color("\(show.removeSpaces())Shadow"), radius: __designTimeInteger("#6589.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0].modifier[5].arg[1].value", fallback: 2))
+                        }
                     }
                     
                     Spacer(minLength: __designTimeInteger("#6589.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[2].arg[0].value", fallback: 95))
